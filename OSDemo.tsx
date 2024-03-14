@@ -6,7 +6,7 @@ import OSConsole from './OSConsole';
 import {renderButtonView} from './Helpers';
 import {TextInput, Text} from '@react-native-material/core';
 
-const APP_ID = '1f370532-45f7-48eb-86fb-95285f78ab0c';
+const APP_ID = 'YOUR_APP_ID';
 
 export interface Props {
   name: string;
