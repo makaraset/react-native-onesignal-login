@@ -1,6 +1,9 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
+Disable this first: Identity Verification for email + external_id (recommended)
+![image](https://github.com/makaraset/react-native-onesignal-login/assets/23161428/3852fdca-5dfb-446f-a2be-a9f2ba0029a9)
+
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
