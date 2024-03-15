@@ -41,6 +41,14 @@ class OSDemo extends React.Component<Props, State> {
     OneSignal.login('officer1');
     OneSignal.Debug.setLogLevel(LogLevel.Verbose);
 
+    OneSignal.Notifications.requestPermission(true);
+
+
+     // Method for listening for notification clicks
+      OneSignal.Notifications.addEventListener('click', (event) => {
+        console.log('OneSignal: notification clicked:', event);
+      });
+
     OneSignal.Notifications.addEventListener(
       'foregroundWillDisplay',
       (event) => {
